@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="calc_bod">
+        <div class="head"><h1>CALCULATOR</h1></div>
+        <div class="result_disp"><input type="text" id="output-screen"> </div>
+        <div class="input-val">
+            <div onclick="Clear()" class="clear func el-back">CLR</div>
+            <div onclick="del()" class="del el-back">Del</div>
+            <div onclick="display('%')" class="percent el-back">%</div>
+            <div onclick="display('/')" class="divi el-back">/</div>
+            <div onclick="display('7')" class="dig-seven el-back">7</div>
+            <div onclick="display('8')" class="dig-eight el-back">8</div>
+            <div onclick="display('9')" class="dig-nine el-back">9</div>
+            <div onclick="display('*')" class="mult el-back">*</div>
+            <div onclick="display('4')" class="dig-four el-back">4</div>
+            <div onclick="display('5')" class="dig-five el-back">5</div>
+            <div onclick="display('6')" class="dig-six el-back">6</div>
+            <div onclick="display('-')" class="subtr el-back">-</div>
+            <div onclick="display('1')" class="dig-one el-back">1</div>
+            <div onclick="display('2')" class="dig-two el-back">2</div>
+            <div onclick="display('3')" class="dig-three el-back">3</div>
+            <div onclick="display('+')" class="add el-back">+</div>
+            <div onclick="display('0')" class="start el-back">0</div>
+            <div onclick="display('.')" class="deci el-back">.</div>
+            <div onclick="display('')" class="crement el-back">+/-</div>
+            <div onclick="Calculate()" class="equal ans el-back">=</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
